@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Fixedsys';
+    src: url('fonts/FSEX300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+    color: #FFF;
+    font-family: 'Fixedsys';
+    font-size: 24px;
+    line-height: 140%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#menu .menu-btn {
+    width: 400px;
+    height: 150px;
+    margin: 24px;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    background-color: rgba(0,0,0,0);
+    border: 4px solid white;
+    border-radius: 12px;
+}
+
+button {
+    font-family: 'Fixedsys';
+}
+
+#credits {
+    height: 40px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.off-active {
+    color: #F00;
+}
+
+.on-active {
+    color: #0F0;
+}
