@@ -17,6 +17,7 @@ body {
     font-size: 24px;
     line-height: 140%;
     transition: background-color .3s;
+    /* cursor: url(http://cur.cursors-4u.net/others/oth-1/oth4.cur), progress !important; */
 }
 
 footer a {
@@ -58,6 +59,7 @@ footer a:hover {
 
 button {
     font-family: 'Fixedsys';
+    cursor: pointer;
 }
 
 #credits {
@@ -72,4 +74,15 @@ button {
 
 .on-active {
     color: #0F0;
+}
+
+#title {
+    height: 40px;
+    padding-top: 24px;
+    margin-bottom: -64px;
+    text-align: center;
+}
+
+#title h1 {
+    margin: 0;
 }
