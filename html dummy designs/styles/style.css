@@ -16,11 +16,16 @@ body {
     font-family: 'Fixedsys';
     font-size: 24px;
     line-height: 140%;
+    transition: background-color .3s;
 }
 
-a {
+footer a {
     color: white;
-    text-decoration: none;
+    transition: color .3s;
+}
+
+footer a:hover {
+    color: #F38B4A;
 }
 
 .bg-black {
@@ -45,6 +50,10 @@ a {
     background-color: rgba(0,0,0,0);
     border: 4px solid white;
     border-radius: 12px;
+}
+
+.menu-btn span {
+    transition: color .3s;
 }
 
 button {
